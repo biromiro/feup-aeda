@@ -1,0 +1,50 @@
+\hypertarget{classZoo}{}\doxysection{Zoo Class Reference}
+\label{classZoo}\index{Zoo@{Zoo}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classZoo_a101b51a9d4771c9ea718818444d1513b}\label{classZoo_a101b51a9d4771c9ea718818444d1513b}} 
+unsigned {\bfseries num\+Animals} () const
+\item 
+\mbox{\Hypertarget{classZoo_a351264ab6e81958f9bc976d0db979b81}\label{classZoo_a351264ab6e81958f9bc976d0db979b81}} 
+unsigned {\bfseries num\+Veterinarians} () const
+\item 
+\mbox{\Hypertarget{classZoo_af9a24e2636073907ad77f262e5ca88ad}\label{classZoo_af9a24e2636073907ad77f262e5ca88ad}} 
+void {\bfseries add\+Animal} (\mbox{\hyperlink{classAnimal}{Animal}} $\ast$a1)
+\item 
+\mbox{\Hypertarget{classZoo_a533a1fc05b841f0a4e2a2a6928cfd825}\label{classZoo_a533a1fc05b841f0a4e2a2a6928cfd825}} 
+std\+::string {\bfseries get\+Info} () const
+\item 
+\mbox{\Hypertarget{classZoo_ae8f0f40b6155e4285c8f643d9071dec4}\label{classZoo_ae8f0f40b6155e4285c8f643d9071dec4}} 
+bool {\bfseries is\+Young} (std\+::string nameA)
+\item 
+void \mbox{\hyperlink{classZoo_ab29fc95723f73f3e71e65763e217a0e7}{allocate\+Veterinarians}} (std\+::istream \&isV)
+\item 
+\mbox{\Hypertarget{classZoo_af992c7728a250234fc3131d8f49f368b}\label{classZoo_af992c7728a250234fc3131d8f49f368b}} 
+bool {\bfseries remove\+Veterinary} (std\+::string nameV)
+\item 
+\mbox{\Hypertarget{classZoo_a356d0617e61e139243faaf77c003ada2}\label{classZoo_a356d0617e61e139243faaf77c003ada2}} 
+bool {\bfseries operator$<$} (\mbox{\hyperlink{classZoo}{Zoo}} \&zoo2) const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classZoo_ab29fc95723f73f3e71e65763e217a0e7}\label{classZoo_ab29fc95723f73f3e71e65763e217a0e7}} 
+\index{Zoo@{Zoo}!allocateVeterinarians@{allocateVeterinarians}}
+\index{allocateVeterinarians@{allocateVeterinarians}!Zoo@{Zoo}}
+\doxysubsubsection{\texorpdfstring{allocateVeterinarians()}{allocateVeterinarians()}}
+{\footnotesize\ttfamily void Zoo\+::allocate\+Veterinarians (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{isV }\end{DoxyParamCaption})}
+
+Allocates the veterinarians of a text file to the respective vector
+
+
+\begin{DoxyParams}{Parameters}
+{\em isV} & the input stream containing the vectors \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Tests/zoo.\+h\item 
+Tests/zoo.\+cpp\end{DoxyCompactItemize}

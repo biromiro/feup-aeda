@@ -1,0 +1,104 @@
+\hypertarget{classAnimal}{}\doxysection{Animal Class Reference}
+\label{classAnimal}\index{Animal@{Animal}}
+
+
+Inheritance diagram for Animal\+:
+% FIG 0
+
+
+Collaboration diagram for Animal\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classAnimal_a94d5a2f24ae20e9378a901213fef0298}{Animal}} (std\+::string name, int age)
+\item 
+std\+::string \mbox{\hyperlink{classAnimal_a1b18a05b8aaecfccf98e96ba3f6b4fd3}{get\+Name}} () const
+\item 
+\mbox{\Hypertarget{classAnimal_a8607f2dbf4fbb63cc75f8e086dfa1072}\label{classAnimal_a8607f2dbf4fbb63cc75f8e086dfa1072}} 
+int {\bfseries get\+Age} () const
+\item 
+\mbox{\Hypertarget{classAnimal_a45321528c4b52643c3436ebaab015baa}\label{classAnimal_a45321528c4b52643c3436ebaab015baa}} 
+\mbox{\hyperlink{classVeterinary}{Veterinary}} $\ast$ {\bfseries get\+Veterinary} () const
+\item 
+\mbox{\Hypertarget{classAnimal_af7a77462652a584056340f81d59993e0}\label{classAnimal_af7a77462652a584056340f81d59993e0}} 
+void {\bfseries set\+Veterinary} (\mbox{\hyperlink{classVeterinary}{Veterinary}} $\ast$vet)
+\item 
+\mbox{\Hypertarget{classAnimal_a7b5bc85ea5eb8fcd990ebad761cc5412}\label{classAnimal_a7b5bc85ea5eb8fcd990ebad761cc5412}} 
+virtual std\+::string {\bfseries get\+Info} () const
+\item 
+\mbox{\Hypertarget{classAnimal_a6d071a50586215493b310baf7ccb1fd8}\label{classAnimal_a6d071a50586215493b310baf7ccb1fd8}} 
+virtual bool {\bfseries is\+Young} () const =0
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{classAnimal_a0f4b31ddb4e591abaff22ce0541ef6d5}{get\+Youngest}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classAnimal_a96fd0789da6971419ec7cd3f9f25d35c}\label{classAnimal_a96fd0789da6971419ec7cd3f9f25d35c}} 
+std\+::string {\bfseries name}
+\item 
+\mbox{\Hypertarget{classAnimal_a31e4a23bef9596927496de4eb6b9c721}\label{classAnimal_a31e4a23bef9596927496de4eb6b9c721}} 
+int {\bfseries age}
+\item 
+\mbox{\Hypertarget{classAnimal_acae99edbdba3e5e7bd73680835fa3fb5}\label{classAnimal_acae99edbdba3e5e7bd73680835fa3fb5}} 
+\mbox{\hyperlink{classVeterinary}{Veterinary}} $\ast$ {\bfseries vet}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classAnimal_a728014988cec252cce437ef7117dbb6c}\label{classAnimal_a728014988cec252cce437ef7117dbb6c}} 
+static int {\bfseries youngest} = 9999
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classAnimal_a94d5a2f24ae20e9378a901213fef0298}\label{classAnimal_a94d5a2f24ae20e9378a901213fef0298}} 
+\index{Animal@{Animal}!Animal@{Animal}}
+\index{Animal@{Animal}!Animal@{Animal}}
+\doxysubsubsection{\texorpdfstring{Animal()}{Animal()}}
+{\footnotesize\ttfamily Animal\+::\+Animal (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{int}]{age }\end{DoxyParamCaption})}
+
+Constructor of the animal class.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & the name of the animal \\
+\hline
+{\em age} & the age of the animal \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classAnimal_a1b18a05b8aaecfccf98e96ba3f6b4fd3}\label{classAnimal_a1b18a05b8aaecfccf98e96ba3f6b4fd3}} 
+\index{Animal@{Animal}!getName@{getName}}
+\index{getName@{getName}!Animal@{Animal}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily std\+::string Animal\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Name getter
+
+\begin{DoxyReturn}{Returns}
+returns the name of the animal 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAnimal_a0f4b31ddb4e591abaff22ce0541ef6d5}\label{classAnimal_a0f4b31ddb4e591abaff22ce0541ef6d5}} 
+\index{Animal@{Animal}!getYoungest@{getYoungest}}
+\index{getYoungest@{getYoungest}!Animal@{Animal}}
+\doxysubsubsection{\texorpdfstring{getYoungest()}{getYoungest()}}
+{\footnotesize\ttfamily int Animal\+::get\+Youngest (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Youngest getter
+
+\begin{DoxyReturn}{Returns}
+the yougest age of an existing animal 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Tests/animal.\+h\item 
+Tests/animal.\+cpp\end{DoxyCompactItemize}
