@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTH
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/biromiro/AEDA/FP01/lib/googletest-master/googletest/include -I/home/biromiro/AEDA/FP01/lib/googletest-master/googletest 
+CXX_INCLUDES = -I"/home/biromiro/AEDA/Practical Exercises/aeda2021_p01/lib/googletest-master/googletest/include" -I"/home/biromiro/AEDA/Practical Exercises/aeda2021_p01/lib/googletest-master/googletest" 
 

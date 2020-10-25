@@ -1,4 +1,4 @@
-# Install script for directory: /home/biromiro/AEDA/aeda2021_p02_extra
+# Install script for directory: /home/biromiro/AEDA/Practical Exercises/aeda2021_p02_extra
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/biromiro/AEDA/aeda2021_p02_extra/cmake-build-debug/lib/googletest-master/cmake_install.cmake")
+  include("/home/biromiro/AEDA/Practical Exercises/aeda2021_p02_extra/cmake-build-debug/lib/googletest-master/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/biromiro/AEDA/aeda2021_p02_extra/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02_extra/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

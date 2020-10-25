@@ -68,10 +68,10 @@ RM = /home/biromiro/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.72/b
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/biromiro/AEDA/aeda2021_p02
+CMAKE_SOURCE_DIR = "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -146,14 +146,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug/CMakeFiles /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug/lib/googletest-master/googlemock/CMakeFiles/progress.marks
-	cd /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/googletest-master/googlemock/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug/CMakeFiles 0
+	cd "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug/CMakeFiles" "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug/lib/googletest-master/googlemock/CMakeFiles/progress.marks"
+	cd "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/googletest-master/googlemock/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/googletest-master/googlemock/clean
+	cd "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/googletest-master/googlemock/clean
 .PHONY : clean
 
 # The main clean target
@@ -163,22 +163,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/googletest-master/googlemock/preinstall
+	cd "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/googletest-master/googlemock/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/googletest-master/googlemock/preinstall
+	cd "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/googletest-master/googlemock/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/rule:
-	cd /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/rule
+	cd "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/rule
 .PHONY : lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -188,12 +188,12 @@ gmock_main: lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # fast build rule for target.
 gmock_main/fast:
-	cd /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
+	cd "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
 .PHONY : gmock_main/fast
 
 # Convenience name for target.
 lib/googletest-master/googlemock/CMakeFiles/gmock.dir/rule:
-	cd /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/googletest-master/googlemock/CMakeFiles/gmock.dir/rule
+	cd "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/googletest-master/googlemock/CMakeFiles/gmock.dir/rule
 .PHONY : lib/googletest-master/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -203,7 +203,7 @@ gmock: lib/googletest-master/googlemock/CMakeFiles/gmock.dir/rule
 
 # fast build rule for target.
 gmock/fast:
-	cd /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build
+	cd "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build
 .PHONY : gmock/fast
 
 src/gmock-all.o: src/gmock-all.cc.o
@@ -212,7 +212,7 @@ src/gmock-all.o: src/gmock-all.cc.o
 
 # target to build an object file
 src/gmock-all.cc.o:
-	cd /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+	cd "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
 .PHONY : src/gmock-all.cc.o
 
 src/gmock-all.i: src/gmock-all.cc.i
@@ -221,7 +221,7 @@ src/gmock-all.i: src/gmock-all.cc.i
 
 # target to preprocess a source file
 src/gmock-all.cc.i:
-	cd /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
+	cd "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
 .PHONY : src/gmock-all.cc.i
 
 src/gmock-all.s: src/gmock-all.cc.s
@@ -230,7 +230,7 @@ src/gmock-all.s: src/gmock-all.cc.s
 
 # target to generate assembly for a file
 src/gmock-all.cc.s:
-	cd /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
+	cd "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
 .PHONY : src/gmock-all.cc.s
 
 src/gmock_main.o: src/gmock_main.cc.o
@@ -239,7 +239,7 @@ src/gmock_main.o: src/gmock_main.cc.o
 
 # target to build an object file
 src/gmock_main.cc.o:
-	cd /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+	cd "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
 .PHONY : src/gmock_main.cc.o
 
 src/gmock_main.i: src/gmock_main.cc.i
@@ -248,7 +248,7 @@ src/gmock_main.i: src/gmock_main.cc.i
 
 # target to preprocess a source file
 src/gmock_main.cc.i:
-	cd /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
+	cd "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
 .PHONY : src/gmock_main.cc.i
 
 src/gmock_main.s: src/gmock_main.cc.s
@@ -257,7 +257,7 @@ src/gmock_main.s: src/gmock_main.cc.s
 
 # target to generate assembly for a file
 src/gmock_main.cc.s:
-	cd /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
+	cd "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
 .PHONY : src/gmock_main.cc.s
 
 # Help Target
@@ -291,6 +291,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -63,10 +63,10 @@ RM = /home/biromiro/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.72/b
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/biromiro/AEDA/aeda2021_p02_extra
+CMAKE_SOURCE_DIR = "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02_extra"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/biromiro/AEDA/aeda2021_p02_extra/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02_extra/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/depend.make
@@ -79,16 +79,16 @@ include lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/flags.make
 
 lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/flags.make
 lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: ../lib/googletest-master/googlemock/src/gmock_main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/biromiro/AEDA/aeda2021_p02_extra/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
-	cd /home/biromiro/AEDA/aeda2021_p02_extra/cmake-build-debug/lib/googletest-master/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/biromiro/AEDA/aeda2021_p02_extra/lib/googletest-master/googlemock/src/gmock_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/biromiro/AEDA/Practical Exercises/aeda2021_p02_extra/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+	cd "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02_extra/cmake-build-debug/lib/googletest-master/googlemock" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02_extra/lib/googletest-master/googlemock/src/gmock_main.cc"
 
 lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock_main.dir/src/gmock_main.cc.i"
-	cd /home/biromiro/AEDA/aeda2021_p02_extra/cmake-build-debug/lib/googletest-master/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/biromiro/AEDA/aeda2021_p02_extra/lib/googletest-master/googlemock/src/gmock_main.cc > CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
+	cd "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02_extra/cmake-build-debug/lib/googletest-master/googlemock" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02_extra/lib/googletest-master/googlemock/src/gmock_main.cc" > CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
 
 lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock_main.dir/src/gmock_main.cc.s"
-	cd /home/biromiro/AEDA/aeda2021_p02_extra/cmake-build-debug/lib/googletest-master/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/biromiro/AEDA/aeda2021_p02_extra/lib/googletest-master/googlemock/src/gmock_main.cc -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
+	cd "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02_extra/cmake-build-debug/lib/googletest-master/googlemock" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02_extra/lib/googletest-master/googlemock/src/gmock_main.cc" -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
 
 # Object files for target gmock_main
 gmock_main_OBJECTS = \
@@ -100,9 +100,9 @@ gmock_main_EXTERNAL_OBJECTS =
 lib/libgmock_maind.a: lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
 lib/libgmock_maind.a: lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make
 lib/libgmock_maind.a: lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/biromiro/AEDA/aeda2021_p02_extra/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../libgmock_maind.a"
-	cd /home/biromiro/AEDA/aeda2021_p02_extra/cmake-build-debug/lib/googletest-master/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean_target.cmake
-	cd /home/biromiro/AEDA/aeda2021_p02_extra/cmake-build-debug/lib/googletest-master/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock_main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/biromiro/AEDA/Practical Exercises/aeda2021_p02_extra/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../libgmock_maind.a"
+	cd "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02_extra/cmake-build-debug/lib/googletest-master/googlemock" && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean_target.cmake
+	cd "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02_extra/cmake-build-debug/lib/googletest-master/googlemock" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build: lib/libgmock_maind.a
@@ -110,10 +110,10 @@ lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build: lib/libgmock_m
 .PHONY : lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
 
 lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/clean:
-	cd /home/biromiro/AEDA/aeda2021_p02_extra/cmake-build-debug/lib/googletest-master/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean.cmake
+	cd "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02_extra/cmake-build-debug/lib/googletest-master/googlemock" && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean.cmake
 .PHONY : lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/clean
 
 lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/depend:
-	cd /home/biromiro/AEDA/aeda2021_p02_extra/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/biromiro/AEDA/aeda2021_p02_extra /home/biromiro/AEDA/aeda2021_p02_extra/lib/googletest-master/googlemock /home/biromiro/AEDA/aeda2021_p02_extra/cmake-build-debug /home/biromiro/AEDA/aeda2021_p02_extra/cmake-build-debug/lib/googletest-master/googlemock /home/biromiro/AEDA/aeda2021_p02_extra/cmake-build-debug/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02_extra/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02_extra" "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02_extra/lib/googletest-master/googlemock" "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02_extra/cmake-build-debug" "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02_extra/cmake-build-debug/lib/googletest-master/googlemock" "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02_extra/cmake-build-debug/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/depend
 

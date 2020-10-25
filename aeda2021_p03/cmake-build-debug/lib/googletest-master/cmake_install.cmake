@@ -1,4 +1,4 @@
-# Install script for directory: /home/biromiro/AEDA/aeda2021_p03/lib/googletest-master
+# Install script for directory: /home/biromiro/AEDA/Practical Exercises/aeda2021_p03/lib/googletest-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/biromiro/AEDA/aeda2021_p03/cmake-build-debug/lib/googletest-master/googlemock/cmake_install.cmake")
+  include("/home/biromiro/AEDA/Practical Exercises/aeda2021_p03/cmake-build-debug/lib/googletest-master/googlemock/cmake_install.cmake")
 
 endif()
 

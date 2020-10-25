@@ -63,10 +63,10 @@ RM = /home/biromiro/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.72/b
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/biromiro/AEDA/aeda2021_p02
+CMAKE_SOURCE_DIR = "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/aeda2021_p02.dir/depend.make
@@ -79,55 +79,55 @@ include CMakeFiles/aeda2021_p02.dir/flags.make
 
 CMakeFiles/aeda2021_p02.dir/main.cpp.o: CMakeFiles/aeda2021_p02.dir/flags.make
 CMakeFiles/aeda2021_p02.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/biromiro/AEDA/aeda2021_p02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/aeda2021_p02.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aeda2021_p02.dir/main.cpp.o -c /home/biromiro/AEDA/aeda2021_p02/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/aeda2021_p02.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aeda2021_p02.dir/main.cpp.o -c "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/main.cpp"
 
 CMakeFiles/aeda2021_p02.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aeda2021_p02.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/biromiro/AEDA/aeda2021_p02/main.cpp > CMakeFiles/aeda2021_p02.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/main.cpp" > CMakeFiles/aeda2021_p02.dir/main.cpp.i
 
 CMakeFiles/aeda2021_p02.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aeda2021_p02.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/biromiro/AEDA/aeda2021_p02/main.cpp -o CMakeFiles/aeda2021_p02.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/main.cpp" -o CMakeFiles/aeda2021_p02.dir/main.cpp.s
 
 CMakeFiles/aeda2021_p02.dir/Tests/tests.cpp.o: CMakeFiles/aeda2021_p02.dir/flags.make
 CMakeFiles/aeda2021_p02.dir/Tests/tests.cpp.o: ../Tests/tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/biromiro/AEDA/aeda2021_p02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/aeda2021_p02.dir/Tests/tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aeda2021_p02.dir/Tests/tests.cpp.o -c /home/biromiro/AEDA/aeda2021_p02/Tests/tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/aeda2021_p02.dir/Tests/tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aeda2021_p02.dir/Tests/tests.cpp.o -c "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/Tests/tests.cpp"
 
 CMakeFiles/aeda2021_p02.dir/Tests/tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aeda2021_p02.dir/Tests/tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/biromiro/AEDA/aeda2021_p02/Tests/tests.cpp > CMakeFiles/aeda2021_p02.dir/Tests/tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/Tests/tests.cpp" > CMakeFiles/aeda2021_p02.dir/Tests/tests.cpp.i
 
 CMakeFiles/aeda2021_p02.dir/Tests/tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aeda2021_p02.dir/Tests/tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/biromiro/AEDA/aeda2021_p02/Tests/tests.cpp -o CMakeFiles/aeda2021_p02.dir/Tests/tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/Tests/tests.cpp" -o CMakeFiles/aeda2021_p02.dir/Tests/tests.cpp.s
 
 CMakeFiles/aeda2021_p02.dir/Tests/fleet.cpp.o: CMakeFiles/aeda2021_p02.dir/flags.make
 CMakeFiles/aeda2021_p02.dir/Tests/fleet.cpp.o: ../Tests/fleet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/biromiro/AEDA/aeda2021_p02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/aeda2021_p02.dir/Tests/fleet.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aeda2021_p02.dir/Tests/fleet.cpp.o -c /home/biromiro/AEDA/aeda2021_p02/Tests/fleet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/aeda2021_p02.dir/Tests/fleet.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aeda2021_p02.dir/Tests/fleet.cpp.o -c "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/Tests/fleet.cpp"
 
 CMakeFiles/aeda2021_p02.dir/Tests/fleet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aeda2021_p02.dir/Tests/fleet.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/biromiro/AEDA/aeda2021_p02/Tests/fleet.cpp > CMakeFiles/aeda2021_p02.dir/Tests/fleet.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/Tests/fleet.cpp" > CMakeFiles/aeda2021_p02.dir/Tests/fleet.cpp.i
 
 CMakeFiles/aeda2021_p02.dir/Tests/fleet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aeda2021_p02.dir/Tests/fleet.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/biromiro/AEDA/aeda2021_p02/Tests/fleet.cpp -o CMakeFiles/aeda2021_p02.dir/Tests/fleet.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/Tests/fleet.cpp" -o CMakeFiles/aeda2021_p02.dir/Tests/fleet.cpp.s
 
 CMakeFiles/aeda2021_p02.dir/Tests/vehicle.cpp.o: CMakeFiles/aeda2021_p02.dir/flags.make
 CMakeFiles/aeda2021_p02.dir/Tests/vehicle.cpp.o: ../Tests/vehicle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/biromiro/AEDA/aeda2021_p02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/aeda2021_p02.dir/Tests/vehicle.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aeda2021_p02.dir/Tests/vehicle.cpp.o -c /home/biromiro/AEDA/aeda2021_p02/Tests/vehicle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/aeda2021_p02.dir/Tests/vehicle.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aeda2021_p02.dir/Tests/vehicle.cpp.o -c "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/Tests/vehicle.cpp"
 
 CMakeFiles/aeda2021_p02.dir/Tests/vehicle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aeda2021_p02.dir/Tests/vehicle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/biromiro/AEDA/aeda2021_p02/Tests/vehicle.cpp > CMakeFiles/aeda2021_p02.dir/Tests/vehicle.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/Tests/vehicle.cpp" > CMakeFiles/aeda2021_p02.dir/Tests/vehicle.cpp.i
 
 CMakeFiles/aeda2021_p02.dir/Tests/vehicle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aeda2021_p02.dir/Tests/vehicle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/biromiro/AEDA/aeda2021_p02/Tests/vehicle.cpp -o CMakeFiles/aeda2021_p02.dir/Tests/vehicle.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/Tests/vehicle.cpp" -o CMakeFiles/aeda2021_p02.dir/Tests/vehicle.cpp.s
 
 # Object files for target aeda2021_p02
 aeda2021_p02_OBJECTS = \
@@ -148,7 +148,7 @@ aeda2021_p02: lib/libgtestd.a
 aeda2021_p02: lib/libgtest_maind.a
 aeda2021_p02: lib/libgtestd.a
 aeda2021_p02: CMakeFiles/aeda2021_p02.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/biromiro/AEDA/aeda2021_p02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable aeda2021_p02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable aeda2021_p02"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aeda2021_p02.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -161,6 +161,6 @@ CMakeFiles/aeda2021_p02.dir/clean:
 .PHONY : CMakeFiles/aeda2021_p02.dir/clean
 
 CMakeFiles/aeda2021_p02.dir/depend:
-	cd /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/biromiro/AEDA/aeda2021_p02 /home/biromiro/AEDA/aeda2021_p02 /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug /home/biromiro/AEDA/aeda2021_p02/cmake-build-debug/CMakeFiles/aeda2021_p02.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02" "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02" "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug" "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug" "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02/cmake-build-debug/CMakeFiles/aeda2021_p02.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/aeda2021_p02.dir/depend
 

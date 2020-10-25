@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/biromiro/AEDA/aeda2021_p02_extra/lib/googletest-master/googlemock/include -isystem /home/biromiro/AEDA/aeda2021_p02_extra/lib/googletest-master/googletest/include -isystem /home/biromiro/AEDA/aeda2021_p02_extra/lib/googletest-master/googletest 
+CXX_INCLUDES = -I"/home/biromiro/AEDA/Practical Exercises/aeda2021_p02_extra/lib/googletest-master/googlemock/include" -isystem "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02_extra/lib/googletest-master/googletest/include" -isystem "/home/biromiro/AEDA/Practical Exercises/aeda2021_p02_extra/lib/googletest-master/googletest" 
 

@@ -1,4 +1,4 @@
-/home/biromiro/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.72/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/biromiro/AEDA/FP01
+/home/biromiro/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.72/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/biromiro/AEDA/Practical Exercises/aeda2021_p01"
 -- The C compiler identification is GNU 9.3.0
 -- The CXX compiler identification is GNU 9.3.0
 -- Check for working C compiler: /usr/bin/cc
@@ -13,7 +13,7 @@
 -- Detecting CXX compiler ABI info - done
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Found PythonInterp: /usr/bin/python3.8 (found version "3.8.2") 
+-- Found PythonInterp: /usr/bin/python3.8 (found version "3.8.5") 
 -- Looking for pthread.h
 -- Looking for pthread.h - found
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
@@ -25,4 +25,4 @@
 -- Found Threads: TRUE  
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/biromiro/AEDA/FP01/cmake-build-debug
+-- Build files have been written to: /home/biromiro/AEDA/Practical Exercises/aeda2021_p01/cmake-build-debug

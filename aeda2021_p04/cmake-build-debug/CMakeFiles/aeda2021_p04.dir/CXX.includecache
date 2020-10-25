@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/biromiro/AEDA/Practical Exercises/aeda2021_p04/Tests/carPark.cpp
+carPark.h
+/home/biromiro/AEDA/Practical Exercises/aeda2021_p04/Tests/carPark.h
+insertionSort.h
+/home/biromiro/AEDA/Practical Exercises/aeda2021_p04/Tests/insertionSort.h
+sequentialSearch.h
+/home/biromiro/AEDA/Practical Exercises/aeda2021_p04/Tests/sequentialSearch.h
+algorithm
+-
+vector
+-
+
+/home/biromiro/AEDA/Practical Exercises/aeda2021_p04/Tests/carPark.h
+iostream
+-
+string
+-
+vector
+-
+
+/home/biromiro/AEDA/Practical Exercises/aeda2021_p04/Tests/insertionSort.h
+vector
+-
+
+/home/biromiro/AEDA/Practical Exercises/aeda2021_p04/Tests/sequentialSearch.h
+vector
+-
+
