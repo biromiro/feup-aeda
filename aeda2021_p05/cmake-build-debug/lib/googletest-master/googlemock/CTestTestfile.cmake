@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/biromiro/AEDA/Practical Exercises/aeda2021_p05/lib/googletest-master/googlemock
-# Build directory: /home/biromiro/AEDA/Practical Exercises/aeda2021_p05/cmake-build-debug/lib/googletest-master/googlemock
+# Source directory: C:/Users/up201906272/Desktop/AEDA/feup-aeda/aeda2021_p05/lib/googletest-master/googlemock
+# Build directory: C:/Users/up201906272/Desktop/AEDA/feup-aeda/aeda2021_p05/cmake-build-debug/lib/googletest-master/googlemock
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

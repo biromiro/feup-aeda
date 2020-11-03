@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/biromiro/AEDA/Practical Exercises/aeda2021_p05/Tests/game.cpp" "/home/biromiro/AEDA/Practical Exercises/aeda2021_p05/cmake-build-debug/CMakeFiles/aeda2021_p05.dir/Tests/game.cpp.o"
-  "/home/biromiro/AEDA/Practical Exercises/aeda2021_p05/Tests/kid.cpp" "/home/biromiro/AEDA/Practical Exercises/aeda2021_p05/cmake-build-debug/CMakeFiles/aeda2021_p05.dir/Tests/kid.cpp.o"
-  "/home/biromiro/AEDA/Practical Exercises/aeda2021_p05/Tests/tests.cpp" "/home/biromiro/AEDA/Practical Exercises/aeda2021_p05/cmake-build-debug/CMakeFiles/aeda2021_p05.dir/Tests/tests.cpp.o"
-  "/home/biromiro/AEDA/Practical Exercises/aeda2021_p05/main.cpp" "/home/biromiro/AEDA/Practical Exercises/aeda2021_p05/cmake-build-debug/CMakeFiles/aeda2021_p05.dir/main.cpp.o"
+  "C:/Users/up201906272/Desktop/AEDA/feup-aeda/aeda2021_p05/Tests/game.cpp" "C:/Users/up201906272/Desktop/AEDA/feup-aeda/aeda2021_p05/cmake-build-debug/CMakeFiles/aeda2021_p05.dir/Tests/game.cpp.obj"
+  "C:/Users/up201906272/Desktop/AEDA/feup-aeda/aeda2021_p05/Tests/kid.cpp" "C:/Users/up201906272/Desktop/AEDA/feup-aeda/aeda2021_p05/cmake-build-debug/CMakeFiles/aeda2021_p05.dir/Tests/kid.cpp.obj"
+  "C:/Users/up201906272/Desktop/AEDA/feup-aeda/aeda2021_p05/Tests/tests.cpp" "C:/Users/up201906272/Desktop/AEDA/feup-aeda/aeda2021_p05/cmake-build-debug/CMakeFiles/aeda2021_p05.dir/Tests/tests.cpp.obj"
+  "C:/Users/up201906272/Desktop/AEDA/feup-aeda/aeda2021_p05/main.cpp" "C:/Users/up201906272/Desktop/AEDA/feup-aeda/aeda2021_p05/cmake-build-debug/CMakeFiles/aeda2021_p05.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -20,8 +20,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/biromiro/AEDA/Practical Exercises/aeda2021_p05/cmake-build-debug/lib/googletest-master/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "/home/biromiro/AEDA/Practical Exercises/aeda2021_p05/cmake-build-debug/lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "C:/Users/up201906272/Desktop/AEDA/feup-aeda/aeda2021_p05/cmake-build-debug/lib/googletest-master/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "C:/Users/up201906272/Desktop/AEDA/feup-aeda/aeda2021_p05/cmake-build-debug/lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
