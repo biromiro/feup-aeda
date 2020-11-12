@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/nrtc/CLionProjects/aeda1929_ci2/Tests/Box.h
+Object.h
+C:/Users/nrtc/CLionProjects/aeda1929_ci2/Tests/Object.h
+
+C:/Users/nrtc/CLionProjects/aeda1929_ci2/Tests/Object.h
+iostream
+-
+string
+-
+
+C:/Users/nrtc/CLionProjects/aeda1929_ci2/Tests/ThinTallBox.h
+stack
+-
+Box.h
+C:/Users/nrtc/CLionProjects/aeda1929_ci2/Tests/Box.h
+
+C:/Users/nrtc/CLionProjects/aeda1929_ci2/Tests/Warehouse.cpp
+Warehouse.h
+C:/Users/nrtc/CLionProjects/aeda1929_ci2/Tests/Warehouse.h
+algorithm
+-
+
+C:/Users/nrtc/CLionProjects/aeda1929_ci2/Tests/Warehouse.h
+queue
+-
+Box.h
+C:/Users/nrtc/CLionProjects/aeda1929_ci2/Tests/Box.h
+Object.h
+C:/Users/nrtc/CLionProjects/aeda1929_ci2/Tests/Object.h
+ThinTallBox.h
+C:/Users/nrtc/CLionProjects/aeda1929_ci2/Tests/ThinTallBox.h
+
