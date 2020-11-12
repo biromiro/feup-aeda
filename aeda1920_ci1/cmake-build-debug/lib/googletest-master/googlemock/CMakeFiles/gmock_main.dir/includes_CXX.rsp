@@ -1,0 +1,1 @@
+-isystem C:/Users/nrtc/CLionProjects/aeda1920_ci1/lib/googletest-master/googlemock/include -isystem C:/Users/nrtc/CLionProjects/aeda1920_ci1/lib/googletest-master/googlemock -isystem C:/Users/nrtc/CLionProjects/aeda1920_ci1/lib/googletest-master/googletest/include -isystem C:/Users/nrtc/CLionProjects/aeda1920_ci1/lib/googletest-master/googletest 
