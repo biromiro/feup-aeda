@@ -1,0 +1,4 @@
+/home/biromiro/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.72/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/biromiro/AEDA/Practical Exercises/aeda2021_p07"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/biromiro/AEDA/Practical Exercises/aeda2021_p07/cmake-build-debug
