@@ -15,6 +15,10 @@ class WordMeaning {
         void setWord(string w) {word=w; }
         void setMeaning(string m) { meaning=m; }
         bool operator < (const WordMeaning &wm1) const;
+
+    bool operator==(const WordMeaning &rhs) const;
+
+    bool operator!=(const WordMeaning &rhs) const;
 };
 
 
@@ -31,14 +35,47 @@ public:
 };
 
 
-//TODO
 class WordInexistent
 {
+    BST<WordMeaning> words;
+    std::string word;
 public:
-    string getWordBefore() const { return ""; }
-    string getMeaningBefore() const { return ""; }
-    string getWordAfter() const { return ""; }
-    string getMeaningAfter() const { return ""; }
+    explicit WordInexistent(const BST<WordMeaning>& words,std::string word) : words(words), word(std::move(word)){};
+    WordMeaning getWordMeaningBefore() const{
+        if(words.isEmpty()) return WordMeaning("","");
+        for (iteratorBST<WordMeaning> it = words.begin(); it != words.end(); it++) {
+            auto itVal = it;
+            itVal++;
+            if(itVal == words.end()){
+                if((*it) < WordMeaning(word,"")) return *it;
+                else return WordMeaning("","");
+            }
+            else if(WordMeaning(word,"") < (*(itVal))){
+                return (*it);
+            }
+        }
+    }
+
+    WordMeaning getWordMeaningAfter() const{
+        if(words.isEmpty()) return WordMeaning("","");
+        for (iteratorBST<WordMeaning> it = words.begin(); it != words.end(); it++) {
+            auto itVal = it;
+            itVal++;
+            if(itVal == words.end()){
+                if((*it) < WordMeaning(word,"")) return WordMeaning("","");
+                else return *it;
+            }
+            else if(WordMeaning(word,"") < (*(itVal))){
+                return (*itVal);
+            }
+        }
+    }
+    string getWordBefore() const { 
+        return getWordMeaningBefore().getWord();
+    }
+    string getMeaningBefore() const { return getWordMeaningBefore().getMeaning(); }
+    string getWordAfter() const { return getWordMeaningAfter().getWord(); }
+    string getMeaningAfter() const { return getWordMeaningAfter().getMeaning(); }
 };
 
 #endif

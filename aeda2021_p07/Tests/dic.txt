@@ -3,7 +3,7 @@ port of land emerged surrounded by water
 cat
 feline mammal
 strawberry
-fruit
+red fruit
 potato
 tubercle vegetable
 monkey

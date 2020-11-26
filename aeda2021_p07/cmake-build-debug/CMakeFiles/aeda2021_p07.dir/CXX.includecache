@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/biromiro/AEDA/Practical Exercises/aeda2021_p07/Tests/bst.h
+C:/Users/nrtc/Desktop/FEUP/AEDA/feup-aeda/aeda2021_p07/Tests/binaryTree.h
 iostream
 -
 stack
@@ -14,23 +14,17 @@ stack
 queue
 -
 
-/home/biromiro/AEDA/Practical Exercises/aeda2021_p07/Tests/dictionary.cpp
+C:/Users/nrtc/Desktop/FEUP/AEDA/feup-aeda/aeda2021_p07/Tests/game.cpp
+game.h
+C:/Users/nrtc/Desktop/FEUP/AEDA/feup-aeda/aeda2021_p07/Tests/game.h
+sstream
+-
+
+C:/Users/nrtc/Desktop/FEUP/AEDA/feup-aeda/aeda2021_p07/Tests/game.h
+binaryTree.h
+C:/Users/nrtc/Desktop/FEUP/AEDA/feup-aeda/aeda2021_p07/Tests/binaryTree.h
 iostream
 -
-string
+stdlib.h
 -
-fstream
--
-dictionary.h
-/home/biromiro/AEDA/Practical Exercises/aeda2021_p07/Tests/dictionary.h
-bst.h
-/home/biromiro/AEDA/Practical Exercises/aeda2021_p07/Tests/bst.h
-
-/home/biromiro/AEDA/Practical Exercises/aeda2021_p07/Tests/dictionary.h
-string
--
-fstream
--
-bst.h
-/home/biromiro/AEDA/Practical Exercises/aeda2021_p07/Tests/bst.h
 

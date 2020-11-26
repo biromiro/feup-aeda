@@ -28,7 +28,7 @@ TEST(test_1, a_CreateDictionary){
         EXPECT_EQ("island", it.retrieve().getWord());
     }
 }
-/*
+
 TEST(test_1, b_PrintDictionary){
     cout << "This test never fails! VERIFY information written in monitorr" << endl;
     EXPECT_TRUE(true);
@@ -162,4 +162,3 @@ TEST(test_2, d_MostVisited){
     game1.move(); game1.move(); game1.move();game1.move();
     EXPECT_EQ(4, game1.mostVisited());
 }
-*/

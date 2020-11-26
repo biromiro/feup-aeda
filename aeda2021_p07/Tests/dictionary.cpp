@@ -15,6 +15,15 @@ bool WordMeaning::operator < (const WordMeaning &wm1) const {
     return word < wm1.word;
 }
 
+bool WordMeaning::operator==(const WordMeaning &rhs) const {
+    return word == rhs.word &&
+           meaning == rhs.meaning;
+}
+
+bool WordMeaning::operator!=(const WordMeaning &rhs) const {
+    return !(rhs == *this);
+}
+
 void Dictionary::readDictionary(ifstream &f)
 {
     std::string word, meaning;
@@ -25,21 +34,32 @@ void Dictionary::readDictionary(ifstream &f)
     }
 }
 
-//TODO
 string Dictionary::searchFor(string word) const
 {
-    return "";
+    const WordMeaning wordMeaning("","");
+    auto val =  words.find(WordMeaning(word,""));
+    if (val == wordMeaning) {
+        throw WordInexistent(words,word);
+    } else {
+        return val.getMeaning();
+    }
 }
 
-//TODO
 bool Dictionary::correct(string word, string newMeaning)
 {
-    return true;
+    auto val = words.find(WordMeaning(word,""));
+    if(val == WordMeaning("","")){
+        words.insert(WordMeaning(word,newMeaning));
+        return false;
+    }else{
+        val.setMeaning(newMeaning);
+        return true;
+    }
 }
 
-void Dictionary::print() const
-{
-    for(iteratorBST<WordMeaning> it = words.begin(); it < words.end(); it++){
-
-    };
+void Dictionary::print() const {
+    for (iteratorBST<WordMeaning> it = words.begin(); it != words.end(); it++) {
+        std::cout << (*it).getWord() << ": " << (*it).getMeaning() << std::endl;
+    }
+}
 

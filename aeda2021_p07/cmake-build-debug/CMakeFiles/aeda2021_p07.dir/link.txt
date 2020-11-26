@@ -1,1 +1,3 @@
-/usr/bin/c++  -g   CMakeFiles/aeda2021_p07.dir/main.cpp.o CMakeFiles/aeda2021_p07.dir/Tests/tests.cpp.o CMakeFiles/aeda2021_p07.dir/Tests/dictionary.cpp.o CMakeFiles/aeda2021_p07.dir/Tests/game.cpp.o  -o aeda2021_p07  lib/libgtestd.a lib/libgtest_maind.a lib/libgtestd.a -lpthread 
+"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\aeda2021_p07.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\aeda2021_p07.dir/objects.a @CMakeFiles\aeda2021_p07.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\aeda2021_p07.dir/objects.a -Wl,--no-whole-archive  -o aeda2021_p07.exe -Wl,--out-implib,libaeda2021_p07.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\aeda2021_p07.dir\linklibs.rsp
