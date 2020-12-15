@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/nrtc/Desktop/FEUP/AEDA/feup-aeda/aeda1920_ci3/Tests/Gallery.cpp
+Gallery.h
+C:/Users/nrtc/Desktop/FEUP/AEDA/feup-aeda/aeda1920_ci3/Tests/Gallery.h
+ostream
+-
+algorithm
+-
+
+C:/Users/nrtc/Desktop/FEUP/AEDA/feup-aeda/aeda1920_ci3/Tests/Gallery.h
+bst.h
+C:/Users/nrtc/Desktop/FEUP/AEDA/feup-aeda/aeda1920_ci3/Tests/bst.h
+vector
+-
+unordered_set
+-
+queue
+-
+Paint.h
+C:/Users/nrtc/Desktop/FEUP/AEDA/feup-aeda/aeda1920_ci3/Tests/Paint.h
+
+C:/Users/nrtc/Desktop/FEUP/AEDA/feup-aeda/aeda1920_ci3/Tests/Paint.h
+string
+-
+ostream
+-
+
+C:/Users/nrtc/Desktop/FEUP/AEDA/feup-aeda/aeda1920_ci3/Tests/bst.h
+iostream
+-
+stack
+-
+queue
+-
+
