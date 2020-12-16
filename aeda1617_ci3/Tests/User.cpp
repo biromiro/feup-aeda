@@ -58,13 +58,8 @@ int User::numReadings() const {
 // TODO:
 //
 bool User::operator<(const User& u1) const {
-	//TODO:
-	//...
-
-	return false;
+    return numReadings() < u1.numReadings();
 }
-
-
 
 UserRecord::UserRecord(User* user) {
 	this->userPtr = user;

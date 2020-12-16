@@ -39,7 +39,7 @@ TEST(test,a) {
 	EXPECT_EQ(4, bci3.getItems().size());
 
 }
-/*
+
 TEST(test,b) {
 
 	Book* bPtr1 = new Book("Artificial Intelligence", "Stuart Russell and Peter Norvig", 2016);
@@ -307,4 +307,4 @@ TEST(test,g){
 	EXPECT_EQ("Maria", champion.getName());
 
 }
-*/
+
